@@ -44,8 +44,92 @@ body {
   font-size: 2rem;
 }
 
-.social-buttons .btn:hover {
-  background-color: #293082;
+hr {
+  border-color: #D93694;
+}
+
+.btn {
+  font-weight: 600;
+}
+
+.bounce {
+  animation: bounce 3s infinite;
+}
+
+.must-have .btn {
+  background-color: #65c565;
+  border: white;
+}
+
+.ex-credit .btn {
+  background-color: #f3a436;
+  border: white;
+}
+
+.eex-credit .btn {
+  background-color: #ff6961;
+  border: white;
+  padding: 1px 8px; /* Adjust the padding values to make the buttons smaller */
+}
+
+
+.social-buttons .btn-x:hover {
+  background-color: #26A7DE;
+  border: none;
+}
+
+.social-buttons .btn-tme:hover {
+  background-color: #24A1DE;
+  border: none;
+}
+
+.social-buttons .btn-cash:hover {
+  background-color: #00D632;
+  border: none;
+}
+
+.social-buttons .btn-of {
+  background-color: #00A5DF;
+  border: none;
+}
+
+.social-buttons .btn-of:hover {
+  background-color: #00A5DF;
+  border: none;
+}
+
+.social-buttons .btn-twitch {
+  background-color: #6441a5 ;
+  border: none;
+}
+.social-buttons .btn-twitch:hover {
+  background-color: #6441a5 ;
+  border: none;
+}
+
+.social-buttons .btn-throne:hover {
+  background-color: #6441a5 ;
+  border: none;
+}
+
+.social-buttons .btn-tree:hover {
+  background-color: #3EDC5C;
+  border: none;
+}
+
+.social-buttons .btn-cb:hover {
+  background-color: #f0bd22;
+  border: none;
+}
+
+.social-buttons .btn-fb:hover {
+  background-color: #316FF6;
+  border: none;
+}
+
+
+.social-buttons .btn-google:hover {
+  background-color: #0F9D58;
   border: none;
 }
 
