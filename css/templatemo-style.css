@@ -37,6 +37,9 @@ body {
   background-color: #333333;
 }
 
+.header-img {
+  width: 100%;
+}
 .cat {
   float: right;
   color: #D93694;
