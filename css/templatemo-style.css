@@ -62,6 +62,7 @@ hr {
 .must-have .btn {
   background-color: #65c565;
   border: white;
+  padding: 10px;
 }
 
 .ex-credit .btn {
@@ -72,7 +73,8 @@ hr {
 .eex-credit .btn {
   background-color: #ff6961;
   border: white;
-  padding: 1px 8px; /* Adjust the padding values to make the buttons smaller */
+  padding: 1px 4px; /* Adjust the padding values to make the buttons smaller */
+  font-size: .8rem;
 }
 
 
@@ -146,6 +148,11 @@ hr {
   margin: 5px; /* Adjust the margin for spacing between buttons */
 }
 
+.eex-credit .btn {
+  flex: 1 1 calc(33% - 10px); /* Each button takes up half of the container width with 10px space between them */
+  margin: 5px; /* Adjust the margin for spacing between buttons */
+}
+
 .logo-top {
   height: 300px;
 }
@@ -172,6 +179,27 @@ hr {
   animation: rotate 3s linear infinite;
   /* Rotate animation for 3 seconds, linear timing, and repeat infinitely */
 }
+
+@keyframes wiggle {
+ 0% { transform: rotate(0deg); }
+ 60% { transform: rotate(0deg); }
+ 65% { transform: rotate(5deg); }
+ 75% { transform: rotate(-5deg); }
+ 80% { transform: rotate(0deg); }
+ 85% { transform: rotate(5deg); }
+ 95% { transform: rotate(-5deg); }
+100% { transform: rotate(0deg); }
+}
+
+.wiggle {
+display: inline-block;
+animation: wiggle 2.5s infinite;
+}
+
+.wiggle:hover {
+animation: none;
+}
+
 
 .sib-form .input,
 .sib-form .input__button {
